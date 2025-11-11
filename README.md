@@ -76,11 +76,11 @@ The GitHub Actions workflow will automatically build and deploy your app.
 
 ## API Endpoints
 
-- `GET /api/Mody` - Get all articles
-- `GET /api/Mody/{id}` - Get article by ID
-- `POST /api/Mody/articles` - Create new article
-- `PUT /api/Mody/articles/{id}` - Update article
-- `DELETE /api/Mody/articles/{id}` - Delete article
+- `GET /api/Article` - Get all articles
+- `GET /api/Article/{id}` - Get article by ID
+- `POST /api/Article/articles` - Create new article
+- `PUT /api/Article/articles/{id}` - Update article
+- `DELETE /api/Article/articles/{id}` - Delete article
 
 ## Notes
 

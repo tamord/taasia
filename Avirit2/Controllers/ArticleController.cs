@@ -11,7 +11,7 @@ namespace Avirit2.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ModyController : ControllerBase
+    public class ArticleController : ControllerBase
     {
         private static readonly List<Article> Articles = new();
         private static readonly object ArticlesLock = new();
@@ -21,7 +21,7 @@ namespace Avirit2.Controllers
             "Data", 
             "articles.json");
 
-        static ModyController()
+        static ArticleController()
         {
             // Ensure Data directory exists
             var dataDirectory = Path.GetDirectoryName(ArticlesFilePath);
@@ -155,7 +155,7 @@ namespace Avirit2.Controllers
             }
         }
 
-        // GET: api/<ModyController>
+        // GET: api/<ArticleController>
         [HttpGet]
         public ActionResult<IEnumerable<Article>> GetArticles()
         {
@@ -166,7 +166,7 @@ namespace Avirit2.Controllers
             }
         }
 
-        // GET api/<ModyController>/5
+        // GET api/<ArticleController>/5
         [HttpGet("{id}")]
         public ActionResult<Article> GetArticleById(int id)
         {
@@ -182,7 +182,7 @@ namespace Avirit2.Controllers
             }
         }
 
-        // PUT api/<ModyController>/articles/{id}
+        // PUT api/<ArticleController>/articles/{id}
         [HttpPut("articles/{id}")]
         public ActionResult<Article> UpdateArticle(int id, [FromBody] ArticleRequest request)
         {
@@ -213,7 +213,7 @@ namespace Avirit2.Controllers
             }
         }
 
-        // DELETE api/<ModyController>/articles/{id}
+        // DELETE api/<ArticleController>/articles/{id}
         [HttpDelete("articles/{id}")]
         public ActionResult DeleteArticle(int id)
         {
@@ -232,7 +232,7 @@ namespace Avirit2.Controllers
             }
         }
 
-        // POST api/<ModyController>/articles
+        // POST api/<ArticleController>/articles
         [HttpPost("articles")]
         public ActionResult<Article> CreateArticle([FromBody] ArticleRequest request)
         {
