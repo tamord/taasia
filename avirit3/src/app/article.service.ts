@@ -17,7 +17,7 @@ export interface ArticleRequest {
   providedIn: 'root'
 })
 export class ArticleService {
-  private apiUrl = 'http://localhost:5020/api/Mody';
+  private apiUrl = 'http://localhost:5020/api/Article';
   private httpOptions = {
     headers: new HttpHeaders({
       'Content-Type': 'application/json'
