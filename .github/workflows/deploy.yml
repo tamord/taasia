@@ -20,14 +20,14 @@ jobs:
         with:
           node-version: '18'
           cache: 'npm'
-          cache-dependency-path: avirit3/package-lock.json
+          cache-dependency-path: Avirit3/package-lock.json
       
       - name: Install dependencies
-        working-directory: ./avirit3
+        working-directory: ./Avirit3
         run: npm ci
       
       - name: Build Angular app
-        working-directory: ./avirit3
+        working-directory: ./Avirit3
         run: npm run build -- --configuration production
       
       - name: Deploy to GitHub Pages
@@ -35,6 +35,6 @@ jobs:
         if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./avirit3/dist/avirit3
+          publish_dir: ./Avirit3/dist/avirit3
           cname: false
 

@@ -10,7 +10,7 @@ A full-stack application for managing articles with Angular frontend and ASP.NET
 │   ├── Controllers/      # API Controllers
 │   ├── Program.cs        # Application entry point
 │   └── ...
-├── avirit3/              # Angular Frontend
+├── Avirit3/              # Angular Frontend
 │   ├── src/
 │   │   └── app/          # Angular components and services
 │   └── ...
@@ -43,7 +43,7 @@ A full-stack application for managing articles with Angular frontend and ASP.NET
 
 ### Frontend (Angular)
 ```bash
-cd avirit3
+cd Avirit3
 npm install
 npm start
 ```

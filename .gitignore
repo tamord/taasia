@@ -1,11 +1,11 @@
 # Angular / Node
-avirit3/node_modules/
-avirit3/dist/
-avirit3/tmp/
-avirit3/out-tsc/
-avirit3/.angular/
-avirit3/npm-debug.log
-avirit3/yarn-error.log
+Avirit3/node_modules/
+Avirit3/dist/
+Avirit3/tmp/
+Avirit3/out-tsc/
+Avirit3/.angular/
+Avirit3/npm-debug.log
+Avirit3/yarn-error.log
 
 # ASP.NET Core
 Avirit2/bin/
