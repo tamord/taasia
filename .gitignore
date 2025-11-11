@@ -1,0 +1,38 @@
+# Angular / Node
+avirit3/node_modules/
+avirit3/dist/
+avirit3/tmp/
+avirit3/out-tsc/
+avirit3/.angular/
+avirit3/npm-debug.log
+avirit3/yarn-error.log
+
+# ASP.NET Core
+Avirit2/bin/
+Avirit2/obj/
+Avirit2/.vs/
+*.user
+*.suo
+*.cache
+*.dll
+*.pdb
+*.exe
+
+# IDEs
+.vs/
+.vscode/
+.idea/
+*.sln.docstates
+
+# Data files (optional - remove if you want to track articles.json)
+Avirit2/bin/Debug/net6.0/Data/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.dll
+*.pdb
+*.exe
+
