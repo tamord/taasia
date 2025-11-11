@@ -59,7 +59,7 @@ https://YOUR_USERNAME.github.io/tamord/
 If you prefer to deploy manually:
 
 ```bash
-cd avirit3
+cd Avirit3
 npm run build
 # Copy the contents of dist/avirit3 to your hosting service
 ```
@@ -68,7 +68,7 @@ npm run build
 
 ⚠️ **API Configuration**: The Angular app is configured to connect to `http://localhost:5020`. For production, you'll need to:
 1. Deploy your ASP.NET Core API to a hosting service (Azure, AWS, etc.)
-2. Update the API URL in `avirit3/src/app/article.service.ts` to point to your production API
+2. Update the API URL in `Avirit3/src/app/article.service.ts` to point to your production API
 
 ### Troubleshooting
 
